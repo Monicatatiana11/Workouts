@@ -60,7 +60,7 @@ El dia de hoy realizamos un figma rediseñando una pg en figma mi grupo fue de n
 
 
 DIA QUINCE:
-El dia de hoy realizamos nuestro primer ejercicio en html y css, me sentia muy desubicada mas sin embargo siento que fue un buen resultado para llevar mucho tiempo sin programar realizamos el figma numero 1 en el html el cual me quedo
+El dia de hoy realizamos nuestro primer ejercicio en html y css, me sentia muy desubicada mas sin embargo siento que fue un buen resultado para llevar mucho tiempo sin programar realizamos el figma numero 1 en el html el cual me quedo de la siguiente manera.
 
 ![image](https://user-images.githubusercontent.com/58921913/127935062-9c2b3ce2-9014-422a-9fd2-5abdc5c2d813.png)
 
