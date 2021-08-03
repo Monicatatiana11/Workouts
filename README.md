@@ -55,5 +55,13 @@ TRECE DIA
 El dia de hoy nos reunimos y realizamos la validación de algunos diseños de páginas me gusto mucho uno se lleva ideas de que es presentable o no y realice la propuesta del diseño de figma https://www.figma.com/file/YMzaI0MBLa20tLcQ5RObWX/Untitled
 
 
-CATORCE DIA
+DIA CATORCE 
 El dia de hoy realizamos un figma rediseñando una pg en figma mi grupo fue de nataly, david y yo realizamos un diseño muy bonito nos gusto muchoy  nos sentimos muy comodos juntos la verdad los aportes muy bueno había cosas que yo no sabia pero ellos igual entonces fue muy chevere tanto compartir conocimientos como llegar a un buen resultado. El figma es https://www.figma.com/file/vRWq3bSblMGZdAvgygnXlr/Untitled
+
+
+DIA QUINCE:
+El dia de hoy realizamos nuestro primer ejercicio en html y css, me sentia muy desubicada mas sin embargo siento que fue un buen resultado para llevar mucho tiempo sin programar realizamos el figma numero 1 en el html el cual me quedo de la siguiente manera.
+
+![image](https://user-images.githubusercontent.com/58921913/127935062-9c2b3ce2-9014-422a-9fd2-5abdc5c2d813.png)
+
+
