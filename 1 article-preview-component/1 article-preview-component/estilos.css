@@ -37,6 +37,8 @@ section.right {
 
 #flecha {
     margin-left: 40px;
+    width: 32px;
+    height: 32px;
 }
 
 @media screen and (max-width: 750px) {
