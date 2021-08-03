@@ -66,6 +66,7 @@ El dia de hoy realizamos nuestro primer ejercicio en html y css, me sentia muy d
 
 DIA DIECISÉIS
 Hoy logre terminar mi hmtl y css, me sentia quedado pero ya logre que queda como movil y escritorio me he dedicado a estudiar un poco css ya que me siento muy quedada en el tema. y se va viendo un mejor resultado, estoy logrando que realiza un hipervinculo a las paginas de redes me falta estilos y cambiar la letra.
+
 **![image](https://user-images.githubusercontent.com/58921913/128074224-b81d23a2-d1e4-44b4-8b89-48062a824318.png)**
 
 
