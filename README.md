@@ -69,5 +69,12 @@ Hoy logre terminar mi hmtl y css, me sentia quedado pero ya logre que queda como
 
 **![image](https://user-images.githubusercontent.com/58921913/128074224-b81d23a2-d1e4-44b4-8b89-48062a824318.png)**
 
+DIA DIECISIETE
+
+Hoy estuve intento terminar mi ejercicio html y css lo cual fue  algo tedioso no se me confundi viendo ejercicios de los otros compañeros lo cual creo que iba bien y empece a hacerlo diferente y se volvio un caos mi css no lo logro entender bien aun, mas sin embargo mi diseño ya se parece un poco mas.
+
+![image](https://user-images.githubusercontent.com/58921913/128220108-56003d1f-d862-415d-a527-4092cc53c670.png)
+
+
 
 
