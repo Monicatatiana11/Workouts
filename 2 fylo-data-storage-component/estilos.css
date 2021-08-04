@@ -1,0 +1,55 @@
+.contenedor{position: relative;
+    width: 1440px;
+    height: 800px;    
+    background: #0C122C;
+    }
+        
+.colorbajo{ position: absolute;
+width: 1440px;
+height: 420px;
+left: 5px;
+top: 383px;
+
+}
+
+.menu {position: absolute;
+width: 319px;
+height: 226px;
+left: 300px;
+top: 200px;
+background: #1E2C69;
+border-radius: 10px 80px 10px 10px;
+
+}
+
+.folder{position: absolute;
+    left: 21.32%;
+    right: 50%;
+    top: 44.38%;
+}
+
+
+.docBtn{position: absolute;
+left: 2%;
+right: 50%;
+top: 44.38%;
+
+}
+
+.uploadBtn{ position: absolute;
+left: 42%;
+right: 50%;
+top: 44.38%;
+
+}
+
+.logo{
+left: 21.39%;
+right: 69.24%;
+top: 36.38%;
+}
+
+
+
+    
+    
