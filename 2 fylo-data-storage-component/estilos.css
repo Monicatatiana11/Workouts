@@ -13,10 +13,10 @@ top: 383px;
 }
 
 .menu {position: absolute;
-width: 319px;
-height: 226px;
-left: 300px;
-top: 200px;
+    width: 353px;
+    height: 195px;
+    left: 208px;
+    top: 250px;
 background: #1E2C69;
 border-radius: 10px 80px 10px 10px;
 
@@ -43,12 +43,20 @@ top: 44.38%;
 
 }
 
-.logo{
-left: 21.39%;
-right: 69.24%;
-top: 36.38%;
+.logo{position: absolute;
+left: 5%;
+right: 50%;
+top:  10%;
+
 }
 
+.rectangulo{position: absolute;
+width: 542px;
+height: 140px;
+left: 671px;
+top: 310px;
+border-radius: 10px;
+}
 
 
     
