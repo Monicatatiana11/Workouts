@@ -13,6 +13,10 @@ bottom: 0px;
 
 }
 
+.mobil{
+display: none;
+}
+
 .menu {position: absolute;
     width: 350px;
     height: 195px;
@@ -21,6 +25,12 @@ bottom: 0px;
 background: #1E2C69;
 border-radius: 10px 80px 10px 10px;
 
+}
+
+.flechablanco{position: absolute;    
+    left: 1163px;
+    top: 330px;
+    
 }
 
 .folder{position: absolute;
@@ -75,6 +85,7 @@ top: 266px;
 font-size: 42px;
 background: #FFFFFF;
 border-radius: 10px;
+padding-left: 10px;
 
 
 }
@@ -134,30 +145,86 @@ color: #FFFFFF;
         border-radius: 50%;
         background-color: #ffffff;
         right: 3px;
-        top: 1px;
+        top: 2px;
 
 
     }
 
     @keyframes recorrer{
-        from {width: 2%;}
+        from {width: 7%;}
         to {width: 80%;}
     }
 
 
 
-@media screen and (max-width:750px){
+@media screen and (max-width:750px){      
+    .colorbajo{ display: none;   
+    }
 
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-       
-        width: 375px;
-        height: 700px;
-
+    .menu {
+ position: absolute;
+  width: 304px;
+height: 204px;
+ left: 300px;
+top: 10%;    
     }
     
 
-}
+.rectangulo{        
+width: 304px;
+height: 140px;
+left: 300px;
+top: 290px;
+        
+        }
 
+ .numero{
+left: 367px;
+top: 400px;
+           
+            }
+
+.GB{             
+ left: 450px;
+top: 405px;           
+                
+ }
+
+.numero0gb{                
+ left: 320px;
+ top: 350px;              
+        
+                }
+
+.gbtotal{
+left: 520px;
+  top: 350px;
+  }
+
+ .barra{
+width: 260px;
+left: 320px;
+ top: 335px;                        
+  }
+
+
+.letra{
+left: 320px;
+top: 280px;
+
+ }      
+
+ .mobil{ position: absolute;
+    width: 900px;
+    height: 100%;    
+    display: block;
+
+    }
+    .flechablanco{position: absolute;    
+        display: none;
+        
+    }
+  }
+
+
+  
