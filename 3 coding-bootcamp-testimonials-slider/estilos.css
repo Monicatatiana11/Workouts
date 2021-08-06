@@ -49,6 +49,7 @@ width: 40%;
 .imagen1{position: relative;
     left: 600px;
     top: -80px;
+    border-radius: 5px;box-shadow: 0px 58px 40px -25px rgba(58, 46, 121, 0.58);
 }
 
 
@@ -83,6 +84,7 @@ width: 40%;
 .imagen2{position: absolute;
     left: 600px;
     top: -80px;
+    border-radius: 5px;box-shadow: 0px 58px 40px -25px rgba(58, 46, 121, 0.58);
 }
 
 
@@ -138,6 +140,7 @@ width: 40%;
      top: 100px;
     display: block;
     border: solid;
+    border-radius: 5px;box-shadow: 0px 58px 40px -25px rgba(58, 46, 121, 0.58);
  }
 
 
@@ -177,6 +180,7 @@ width: 40%;
     height: 260px;
     top: 100px;
    border: solid;
+   border-radius: 5px;box-shadow: 0px 58px 40px -25px rgba(58, 46, 121, 0.58);
 }
 
 
