@@ -1,0 +1,172 @@
+body{
+    height: 100vh;  
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif; 
+    font-size: 32px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comillas{position: absolute;
+left: 95px;
+top: 80px;
+
+
+}
+
+
+.perfil1{
+    opacity: 1;
+}
+
+.perfil2{
+opacity: 0;
+
+}
+
+.fondobajo{position: absolute;
+bottom: 0%;   
+left: 0%;
+width: 40%;
+}
+
+
+
+.fondo{position: absolute;
+    left: 48%;
+    bottom: 30%;
+
+}
+
+.contenedor{position: absolute;
+    width: 1110px;
+    height: 540px;
+    display: flex;
+    
+}
+
+.imagen1{position: relative;
+    left: 600px;
+    top: -80px;
+}
+
+
+.texto{
+    flex-direction: column; 
+    align-self: center; 
+    position: absolute;
+    width: 639px;  
+    top: 120px;
+}
+
+
+.ux{position: absolute;       
+    top: 320px;
+    color: #B8B6C4;
+    left: 250px;      
+ }
+
+ .nombre{position: absolute;
+    font-weight: 900;
+    top: 350px;
+        left: 5px;
+}
+
+.flechas{position: absolute;
+    left: 60%;
+    right: 39%;
+    top: 80%;    
+}
+
+.imagen2{position: relative;
+    left: 600px;
+    top: -80px;
+}
+
+
+.texto2{
+    flex-direction: column; 
+    align-self: center; 
+    position: absolute;
+    width: 639px;  
+    top: 120px;
+}
+
+
+.ux2{position: absolute;       
+    top: 320px;
+    color: #B8B6C4;
+    left: 250px;      
+ }
+
+ .nombre2{position: absolute;
+    font-weight: 900;
+    top: 350px;
+        left: 5px;
+}
+
+.flechas2{position: absolute;
+    left: 60%;
+    right: 39%;
+    top: 80%;    
+}
+
+
+
+@media screen and (max-width:1100px){   
+
+    body{
+        font-size: 18px ;      
+
+}  
+
+ .imagen1 img{position: absolute;
+     width: 300px;
+     height: 260px;
+     right: 600px;
+     top: 100px;
+    display: block;
+    border: solid;
+ }
+
+
+.contenedor{position: absolute;
+    width: 320px;
+    flex-direction: column;
+border-color: burlywood;
+border-style: solid;
+height: 580px;
+}
+
+
+.texto{ 
+    width: 307px;
+    flex-direction: column; 
+    align-self: center;
+    text-align: center; 
+    top: 300px;
+}
+
+
+.ux{position: absolute;       
+    bottom: 20px;
+    left: 110px;
+      
+ }
+
+ .nombre{position: absolute;
+    font-weight: 900;
+    bottom:20px;
+    left: 100px;
+
+}
+
+.flechas{position: absolute;
+    left: 30%;
+    right: 39%;
+    top: 38%;
+    bottom: 50%;
+}
+
+}
