@@ -76,5 +76,18 @@ Hoy estuve intento terminar mi ejercicio html y css lo cual fue  algo tedioso no
 ![image](https://user-images.githubusercontent.com/58921913/128220108-56003d1f-d862-415d-a527-4092cc53c670.png)
 
 
+DIA DIECIOCHO 
+Realizamos el segundo figma en html y css en el cual ya me senti mas comoda tuve el tiempo, estuve acompañada de david vargas el cual me explico unas cosas en las cuales estaba fallando. y quedo muy bien  quedo moviendose y todo la barra este es el resultado: 
+
+![image](https://user-images.githubusercontent.com/58921913/128574597-0a6ccfe7-0880-4790-a3f8-08a4ffc2aa0a.png)
+![image](https://user-images.githubusercontent.com/58921913/128574644-6c16697f-1a86-488e-94ff-8ac4e7c43ae0.png)
+
+
+DiA QUINCE
+
+Realice el tercer figma número tres en html y css lo cual fue un poco complicado pero lo logre, tuve un buen resultado al principio estuve intentaod realizar en dos html lo cual david vargar me acompaño a realizar y luego se unio nataly y me gusto otra manera por lo cual lo realice con las etqieutas opacity:  y quedo bien   me gusto mucho me faltan unos retoque para colocar la foto:
+
+
+
 
 
