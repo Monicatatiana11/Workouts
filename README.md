@@ -87,6 +87,18 @@ DiA QUINCE
 
 Realice el tercer figma número tres en html y css lo cual fue un poco complicado pero lo logre, tuve un buen resultado al principio estuve intentaod realizar en dos html lo cual david vargar me acompaño a realizar y luego se unio nataly y me gusto otra manera por lo cual lo realice con las etqieutas opacity:  y quedo bien   me gusto mucho me faltan unos retoque para colocar la foto:
 
+DIA DIECISEIS:
+
+Realizamos el número 4 el cual se veia mas facil pero tratar de ordernarlo se me dificilto fue un poco complicado pero me coloque a trabajar con david a la par y siento que las dudas que tengo el me colabora por tal motivo logre un gran resultado.
+
+
+
+![image](https://user-images.githubusercontent.com/58921913/128784474-a0590bc9-c93e-4f6b-964d-16d00f5e54a6.png)
+****
+
+![image](https://user-images.githubusercontent.com/58921913/128784509-0b8aa46d-2995-48ff-a928-e1f03f9ee94e.png)
+
+
 
 
 
