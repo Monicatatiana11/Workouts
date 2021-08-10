@@ -1,14 +1,26 @@
-
-.contenedor{position: relative;
-    width: 1440px;
-    height: 100vh;    
+*{overflow: hidden;}
+body{position: relative;
+    height: 100%;  
+    width: 100%;  
+    background: linear-gradient(118.15deg, #FFFFFF 24.52%, #FFF3F3 72.43%);
     
-
 }
 
-.menu{ position: absolute;
+.contenedor{
+    display:flex;
+
+    position: relative;
+    width: 100%;
+    height: 600px;  
+         
+}
+
+.menu{ 
+    display: flex;
+    flex-direction:column;
+    position: absolute;
 width: 830px;
-height: 800px;
+height: 600px;
 left: 0px;
 top: 0px;
 
@@ -16,7 +28,7 @@ top: 0px;
 
 .img{position: absolute;
     width: 610px;
-    height: 800px;
+    height: 100%;
     left: 830px;
     top: 0px;
 }
@@ -38,38 +50,64 @@ bottom: 87.81%;
     line-height: 63px;  
     letter-spacing: 0.28em;
     color: #C49899;
+    font-weight: 100;
+    font-family: Josefin Sans;
+    margin: 0px;
 }
 
 .coming{position: absolute;
     left: 20%;
     right: 18%;
-    top: 37%;
+    top: 30%;
     bottom: 47%;
-    
+    margin: 0px;
     font-family: Josefin Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 66px;
     line-height: 68px;    
-    letter-spacing: 0.22em;    
     color: #373131;
 
 }
 
 .textolargo{ position: absolute;
-left: 19.88%;
-right: 27.47%;
-top: 57.12%;
-bottom: 29.62%;
-
+left: 19%;
+right: 27%;
+top: 55%;
+bottom: 30%;
 font-family: Josefin Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 28px;
-
-
-letter-spacing: 0.005em;
-
 color: #C49899;
 }
+
+.deslizar{
+    position:absolute;
+    right: 0px;
+    top: 440px;
+    width: 90%;
+    border: 2px solid #F16161;
+    box-sizing: border-box;
+    border-radius: 100px;
+    height: 60px;
+
+}
+
+.input{
+    position: relative;
+    height: 90%;
+    width: 600px;
+
+}
+button{
+    position: absolute;
+    border-radius: 30px;
+    right: 1px;
+    top: 440px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F29E9E;
+}
+
