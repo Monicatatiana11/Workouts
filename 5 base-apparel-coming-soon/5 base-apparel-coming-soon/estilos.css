@@ -1,4 +1,5 @@
 *{overflow: hidden;}
+
 body{position: relative;
     height: 100%;  
     width: 100%;  
@@ -16,7 +17,7 @@ body{position: relative;
 }
 
 .menu{ 
-    display: flex;
+ display: flex;
     flex-direction:column;
     position: absolute;
 width: 830px;
@@ -81,144 +82,126 @@ color: #C49899;
 
 .input{
     position: absolute;
-    height: 90%;
-    width: 400px;
-
+    top: 450px;
+    height: 10%;
+    width: 420px;
+    left: 150px;
 }
 
 .error{ position: absolute;
-left: 59%;
-right: 40%;
-top: 85%;
-bottom: 22%;
+right: 30%;
+bottom: 30%;
 }
 
 
 .email{
     position:absolute;
-    right: 10px;
-    top: 440px;
+    right: 30px;
     width: 90%;
     border: 2px solid #F16161;
     box-sizing: border-box;
     border-radius: 100px;
-    height: 60px;
+    height: 50px;
+    padding: 25px;
+    outline: none;
 
 }
 
 button{
     position: absolute;
     border-radius: 30px;
-    right: 2px;
-    top: 440px;
-    width: 200px;
-    height: 60px;
+    right: 0px;  
+    width: 120px;
+    height: 54px;
     border: none;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F29E9E;
+    float: right ;
 }
+
+
 
 
 
 @media screen and (max-width:1110px){    
-main{
-    position: relative; 
-    width:365px ;
-    height: 600px; 
-}
-.logo{ 
-    width: 76px;
-    height: 16px;
-    left: 20px;
-    top:17px;
-    position: absolute;
-}
-section{
-    float:left;
-    left: 0px;
-    top: 280px;
-    position: absolute;
-    width:359px ;
-    height: 310px;
-}
-.persona1{
-    opacity: 0;  
-}
-.persona2{
-    opacity: 1;
-    position: absolute;
-    top: 50px;
-    width: 365px;
-    height: 200px;   
-}
-.titulo{
-    top: 0px;
-    width: 340px;
-    height: 139px;
-    position: absolute;
-    line-height: 46px;
-    text-align: center;
-    left: 10px;
-}
-h1{
-    color: #ce9797;
-    font-size: 40px;
-    margin: 0px;
-    font-weight: normal;
-    letter-spacing: 0.18em;
-}
- h2{
-    color: #413839;
-    font-size: 41px;
-    margin: 0px;
-    font-weight: 900;
-    letter-spacing: 0.21em;    
-}
-.contenido{
-    top: 160px;
-    width: 263px;
-    height: 80px;
-    position: absolute;
-    text-align: center;
-    left: 48px;
-}
-h6{
-    color: #ce9797;
-    margin: 0px;
-    font-size: 12px;
-    font-weight: normal;
-    line-height: 21px;
-    letter-spacing: 0.01em;
-}
-.email{
-    position: relative;
-    width: 293px;
-    height: 42px;
-    top: 260px;
-    left: 35px;
-}
-input{
-    border: 1px solid #CE9797;
-    border-radius: 70px;
-    color: #413839;
-    width: 263px;
-    height: 29px;
-    position: absolute;
-    padding: 5px 5px 5px 15px;
-}    
-button{
-    background: linear-gradient(90deg, #F8BFBF 23.74%, #EE8B8B 122.22%);
-    width: 73px;
-    height: 41px;
-    float: right;
-    right: 0px;
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 70px;
-    position: absolute;
-}
-}
-}
+    *{ 
+        overflow: unset;
+        
+    }
+    body{position: relative;
+        height: 140vh;  
+        width: 100%; 
+        display: flex;  
+        justify-content: center;         
 
+    }
+
+    .contenedor{   
+        width: 80%;
+        height: 900px; 
+             
+    }
+    .menu{ 
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    width: 500px;
+    height: 810px;
+             
+
+       }
+
+
+       .img{position: absolute;
+        width: 510px;
+        height: 45%;
+        top: 50px;
+        float: left;
+        left: 0px;
+
+    }
+
+    .logo{ position: absolute;
+        left: 0px;
+        right: 61.13%;
+        bottom: 87.81%;
+        top: 0px;        
+        }
+
+        .were{position: absolute;
+            left: 25%; 
+            top: 500px;
+            font-size: 63px;
+            height: 70px;
+            font-weight: 100;
+            font-family: Josefin Sans;
+            margin: 0px;
+            text-align: center;
+        }
+
+        .coming{position: absolute;
+            left: 17%;
+            bottom: 13%;
+            height: 150px;
+            text-align: center;          
+        
+        }
+
+        .textolargo{ position: absolute;
+            left: 20%;
+            top: 690px;
+            height: 100px;
+            text-align: center;
+            width: 350px;
+            }        
+
+            .input{
+                position: absolute;
+                top: 800px;
+                height: 6%;
+                width: 420px;
+                left: 50px;            
+            }
+     
+    }
