@@ -1,7 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 .error-icon,
 .error-text {
 	display: none;
+}
+
 }
 html {
 	font-size: 16px;
@@ -41,7 +48,7 @@ html {
 	color: white;
 	font-size: 1.3rem;
 	line-height: 1.9rem;
-	/* max-width: 500px; */
+
 }
 .right-col {
 	flex: 1;
@@ -50,15 +57,18 @@ html {
 	background-color: hsl(248, 32%, 49%);
 	color: white;
 	padding: 15px 90px;
-	/* border-bottom: 5px solid hsla(249, 10%, 26%, 0.466); */
+	
 	border-radius: 15px;
 	box-shadow: 0 7px hsla(249, 10%, 26%, 0.404);
 	margin-bottom: 30px;
 }
+
 .right-col .top-card p {
 	font-size: 1.3rem;
 	line-height: 2.2rem;
 }
+
+
 .right-col .top-card p span {
 	font-weight: 700;
 }
@@ -97,7 +107,9 @@ html {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.1rem;
 	font-weight: 600;
+
 }
+
 .right-col button[type = submit] {
 	cursor: pointer;
 	background-color: hsl(154, 59%, 51%);
@@ -109,17 +121,25 @@ html {
 	letter-spacing: 2px;
 	margin-bottom: 0;
 	border: none;
+
+
 }
 .right-col button[type = submit]:hover {
-	background-color: hsl(154, 73%, 65%);
+	background-color: hsl(256, 73%, 65%);
 }
+
+
 .right-col .form-footer {
 	margin-top: 10px;
 	color: hsl(246, 25%, 77%);
+
+
 }
 .right-col .form-footer span {
 	color: hsl(0, 100%, 74%);
 	font-weight: 700;
+
+
 }
 .error-text {
 	text-align: right;
@@ -142,10 +162,11 @@ html {
 }
 .field-group.error input {
 	border: 2px solid hsl(0, 100%, 74%);
+	
 }
 @media only screen and (min-width: 1000px) {
 	#intro {
-		
+		background-image: url(./images/bg-intro-mobile.png);
 	}
 	.container {
 		flex-direction: row;
