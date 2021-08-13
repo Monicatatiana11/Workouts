@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body{
+  --primary-color: hsl(179, 62%, 43%);
+  --c2a-color: hsl(71, 73%, 54%);
+  --neutral-color1: hsl(204, 43%, 93%);
+  --neutral-color2: hsl(218, 22%, 67%);
+  font-family: 'Karla', sans-serif;
+  background-color: #e6eff7;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+h1{
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 10px;
+  max-width: 665px;
+  min-width: 380px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%); 
+  margin: auto;
+  box-shadow: 0 30px 100px 0px grey;
+  overflow: hidden;
+}
+
+.invitation, .callToAction, .about{
+  padding: 2.0rem;
+}
+
+.invitation {
+  background-color: #ffffff;
+  color: var(--neutral-color2);
+  width: 100%;
+}
+
+.invitation h1{
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1rem;
+}
+
+.invitation h2{
+  color: hsl(71, 73%, 54%);
+}
+
+.invitation p{
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5;
+}
+
+.bottom{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.callToAction {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: space-between;
+  background-color: var(--primary-color);
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.price h1{
+  font-size: 1.8rem;
+  margin-right: 0.7rem;
+}
+
+.price p{
+  color: #68d6d7;
+}
+
+button{
+  display: box;
+  font-size: 100%;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.15;
+  border: 0;
+  padding: 0;
+  background-color: var(--c2a-color);
+  height: 2.7rem;
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  transition: all .2s ease-in-out;
+}
+button:hover{
+  transform: scale(1.05);  
+}
+
+.about {
+  background-color: #4abebd;
+}
+
+.about ul{
+  list-style: none;
+}
+
+li{
+  color: #97f7f7;
+}
+@media only screen and (min-width: 768px) {
+  .bottom {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .invitation, .callToAction, .about{
+    padding: 2.5rem;
+  }
+  .callToAction, .about{
+    width: 50%;
+  }
+}
