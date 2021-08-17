@@ -19,7 +19,6 @@ body{
   color: #ffffff;
   font-weight: 400;
 }
-
 h1{
   font-size: 1.55rem;
   font-weight: 700;
@@ -59,16 +58,13 @@ h2{
   color: hsl(179, 62%, 43%);
   margin-bottom: 1rem;
 }
-
 .invitation h2{
   color: hsl(71, 73%, 54%);
 }
-
 .invitation p{
   color: hsl(218, 22%, 67%);
   line-height: 1.5;
 }
-
 .bottom{
   display: flex;
   flex-flow: column wrap;
@@ -82,7 +78,6 @@ h2{
   align-content: space-between;
   background-color: var(--primary-color);
 }
-
 .price{
   display: flex;
   align-items: center;
@@ -93,11 +88,9 @@ h2{
   font-size: 1.8rem;
   margin-right: 0.7rem;
 }
-
 .price p{
   color: #68d6d7;
 }
-
 button{
   display: box;
   font-size: 100%;
