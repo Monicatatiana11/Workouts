@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+	width: 1330px;
+	height: 2300px;
+}
+
+header {
+	background-image: url("./images/bg-hero-desktop.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-wrap: wrap;
+	height: 590px;
+	width: 1330px;
+	flex-direction: column;
+}
+
+nav {
+	width: 99%;
+	height: 140px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+.container{
+
+}
