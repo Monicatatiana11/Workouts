@@ -28,20 +28,34 @@ body {
 }
 
 .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 	background-color: hsl(228, 56%, 26%);
 	border-radius: 9px;
 	border-top-right-radius: 90px;
-	box-shadow: -5px 10px 20px 10px hsla(230, 51%, 16%, 0.3);
-	width: auto;
-	padding: 30px 35px;
-	padding-right: 15%;
+    height: 200px;
+    box-shadow: -5px 10px 20px 10px hsla(230, 51%, 16%, 0.3);
+    
+    width: 350px;
 
+}
+
+.aux{
+    width: 176px;
+    border: dashed white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 126px;
 }
 
 .icon-collection {
 	display: flex;
-	flex-direction: row;
-	margin-top: 30px;
+}
+
+.icon,.icon2,.icon3{
+    align-self: flex-end;
 }
 
 .icon {
@@ -52,7 +66,7 @@ body {
 	align-items: center;
 	width: 50px;
 	height: 50px;
-	margin-right: 20px;
+    border: solid brown;
 }
 
 .storage-display {
