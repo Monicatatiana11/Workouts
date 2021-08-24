@@ -1,217 +1,192 @@
-body { 
-	height: 100vh;
-	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-	margin: 0%;	
-	background-color: hsl(229, 57%, 11%);
-	
+*
+{
+margin: 0%;
+padding: 0%
 }
 
 
-.colorbajo{
-	width: 100%;
-	height: 50%;
-	bottom: 0%;
-	position: absolute;
-}
-
-.container {
-	display: flex;
-	flex-direction: row; 
-	justify-content: center;   
-
-}
-
-
-.container > * {
-	margin: 0px 15px;
-}
-
-.logo-container {
+body{
+    background-color: #0C122C;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-	background-color: hsl(228, 56%, 26%);
-	border-radius: 9px;
-	border-top-right-radius: 90px;
-    height: 200px;
-    box-shadow: -5px 10px 20px 10px hsla(230, 51%, 16%, 0.3);
-    
-    width: 350px;
-
+    font-family: 'Raleway';
 }
 
-.aux{
+.imgabajo{
+    z-index: -1;
+    position: absolute;
+    bottom: 0%;
+    height: 45%;
+    width: 100%;
+}
+
+.contenedorgrande{
+    width: 920px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cajaiconos{
+    background-color: #1D2B68;
+    width: 38%;
+    min-width: 250px;
+    height: 200px;
+    border-radius: 10px 100px 10px 10px ;
+    display: flex;
+    align-items: center;
+}
+
+.botones{
+    margin-left: 12%;
     width: 176px;
-    border: dashed white;
+    height: 126px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 126px;
 }
 
-.icon-collection {
-	display: flex;
+.logo{
+    width: 100%;
+    height: 45px;
 }
 
-.icon,.icon2,.icon3{
+.img_logo{
+    height: 100%;
+}
+
+.ico_documento,.ico_folder,.ico_upload
+{
+    display: flex;
     align-self: flex-end;
+    justify-content: center;
+    background-color: #0C122C;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
 }
 
-.icon {
-	background-color: hsl(229, 57%, 11%);
-	border-radius: 9px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50px;
-	height: 50px;
-    border: solid brown;
+.img_documento,.img_folder,.img_upload{
+    align-self: center;
+    width: 30px;
+    height: 25px;
 }
 
-.storage-display {
-	background-color: hsl(228, 56%, 26%);
-	border-radius: 9px;
-	box-shadow: -5px 10px 20px 10px hsla(230, 51%, 16%, 0.3);
-	font-weight: 500;
-	padding: 20px 35px;
-	position: relative;
+.cajagigas{
+    background-color: #1D2B68;
+    border-radius: 10px;
+    width: 58%;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.storage-bar {
-	display: flex;
-	align-items: center;
-	width: 400px;
-	height: 10px;
-	background-color: hsl(229, 57%, 11%);
-	border-radius: 20px;
-	padding: 2px;
+.div_centrar{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 85%;
+    height: 50%;
 }
 
-.storage-bar:after {
-	content: '.';
-	visibility: hidden;
+.texto1,.texto2,.texto3{
+    color: white;
 }
 
-.storage-val {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	width: 81.5%;
-	height: inherit;
-	background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-	border-radius: 20px;
+.texto2{
+    margin: 0 5px 0 5px;
 }
 
 
 
-
-.storage-val:after {
-	content: '.';
-	visibility: hidden;
+.divbarra{
+align-items: center;
+border-radius: 9px;
+    height: 19px;
+    background-color: black;
+    display: flex;
+    width: 100%;
 }
 
-.remain-box {
-	background-color: white;
-	border-radius: 9px;
-	display: flex;
-	align-items: center;
-	font-size: 32px;
-	font-weight: bold;
-	padding: 15px 20px;
-	position: absolute;
-	top: -30%;
-	left: 60%;
-	width: fit-content;
+.barra{
+    margin-left: 2px;
+    width: 80%;
+    height: 80%;
+    border-radius: 6px;
+    background-color: #131f49;
+    display: flex;
+    justify-content: flex-end;
+    animation: recorrer 10s;   
+    background-image: linear-gradient(45deg, #f2a49e, #fb4d92);
 }
 
-.remain-box:before {
-	content: "";
-	position: absolute;
-	border-right: 20px solid white;
-	border-top: 20px solid white;
-	border-left: 20px solid transparent;
-	border-bottom: 20px solid transparent;
-	bottom: -15px;
-	right: 0px;
+.bolita{
+    position: absolute;
+    align-self: center;
+    margin-right: 2px;
+    border-radius: 50%;
+    background-color: white;
+    width: 15px;
+    height: 15px;
 }
 
-.remain-box > span {
-	color: hsl(229, 7%, 65%);
-	font-weight: bold;
-	margin-left: 10px;
-	text-transform: uppercase;
+@keyframes recorrer{
+    from {width: 7%;}
+    to {width: 80%;}
 }
 
-.white-dot {
-	background-color: white;
-	display: flex;
-	width: 8px;
-	height: 8px;
-	border-radius: 100%;
+.gigas{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 
-.white-dot:after {
-	content: '.';
-	visibility: hidden;
+.img_numeros{position: absolute;
+    width: 180px;
+    height: 90px;
+    right: 555px;
+    margin-top: -2%;       
+
 }
 
-.subtext {
-	color: hsl(243, 100%, 93%);
-	font-size: 14px;
-	font-weight: 200;
-}
+.txt_burbuja{
+    z-index: 2;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    right: 32%;
+    top: 45%;
 
-.label-text {
-	color: hsl(243, 100%, 93%);
-	font-size: 11px;
-	font-weight: bold;
-}
-
-.label {
-	display: flex;
-	justify-content: space-between;
 }
 
 
-@media only screen and (max-width: 768px) {
-	.container {
-		flex-direction: column;
-		justify-content: center;
-		position: relative;
-		width: 100%;
-	}
-
-	.container > * {
-		margin: 10px 25px;
-	}
-
-	.storage-display {
-		padding-bottom: 40px;
-	}
-
-	.storage-bar {
-		width: auto;
-	}
-
-	.remain-box:before {
-		display: none;
-	}
-
-	.remain-box {
-		top: 75%;
-		left: 25%;
-	}
+@media screen and (max-width:500px) {
+    .contenedorgrande{
+        width: 327px;
+        height: 415px;
+        flex-direction: column;
+    }
+    
+    .cajaiconos{
+        width: 100%;
+    }
+    
+    .cajagigas{
+        width: 100%;
+        height: 160px;
+    }
 }
 
+.img_numeros{position: absolute;
+    width: 180px;
+    height: 90px;
+    right: 555px;
+    margin-top: -2%;       
 
-@media only screen and (max-width: 1024px) {
-	body {
-		background-image: url('./images//bg-mobile.png');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		align-items: center;
-	}
 }
