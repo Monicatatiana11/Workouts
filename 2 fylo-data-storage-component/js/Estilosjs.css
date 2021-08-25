@@ -190,3 +190,21 @@ border-radius: 9px;
     margin-top: -2%;       
 
 }
+
+.img_numeros{position: absolute;
+    width: 280px;
+    height: 90px;
+    right: 555px;
+    margin-top: -2%;       
+
+}
+
+.txt_burbuja{
+    z-index: 2;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    right: 32%;
+    top: 45%;
+
+}
