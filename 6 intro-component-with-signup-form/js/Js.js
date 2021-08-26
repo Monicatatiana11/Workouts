@@ -22,16 +22,13 @@ let input2 = creador("input", "class", "input2");
 let input3 = creador("input", "class", "input3");
 let input4 = creador("input", "class", "input4");
 let boton = creador("button", "class", "boton");
-let Textver = creador("p", "class", "Textver");
+    boton.innerText="CLAMIN YOUR FREE TRIAL";
 
 
 input1.placeholder="Nombre";
 input2.placeholder="Last name";
 input3.placeholder="Email Addres";
 input4.placeholder="Password";
-
-
-
 
 
 document.body.append(main);
@@ -48,6 +45,8 @@ formulario.append(input3);
 formulario.append(input4);
 formulario.append(boton);
 input1.append(letras);
+boton.append(Textver);
+
 
 
 

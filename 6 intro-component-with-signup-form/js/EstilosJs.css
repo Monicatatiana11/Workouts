@@ -14,6 +14,7 @@ body {
 	font-family: 'Poppins';
 }
 
+
 .intro{    
        width: 1110px;
         height: 560px;
@@ -65,9 +66,8 @@ line-height: 55px;
     align-items: center;
     justify-content: center;
     display: flex;
-
-
 } 
+
 input:focus{
     outline: none;
 }
@@ -81,8 +81,8 @@ input:focus{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;    
-
 }
+
 
 input{
     border-radius: 10px;
@@ -90,9 +90,7 @@ input{
     height: 57px;
     padding-left: 30px;  
     border: solid 1px #DFDFDF;
-
 }
-
 
 .boton{
     border-radius: 10px;
@@ -100,13 +98,12 @@ input{
     height: 57px;
     background-color: #37CC8A;
     border: none;
-
+    color: white;
+    font-weight: 700;
 }
 
+
 .letras{
-    height: 12px;
     width: 86%;
-
-
 }
 
