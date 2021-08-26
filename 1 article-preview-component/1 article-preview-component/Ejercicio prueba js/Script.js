@@ -70,6 +70,32 @@ div_boton.append(div_overlay);
 
 
 
+let img = creador ("img","class", "colorbajo");
+img.src="./images/bg-desktop.png";
+document.body.append(img);
+
+
+
+********************************************
+let img = creador ("img","class", "colorbajo");
+img.src="./images/bg-desktop.png";
+document.body.append(img);
+
+let container = creador ("div", "class", "container");
+document.body.append(container);
+
+let logocontainer = creador ("div", "class", "logo-container");
+container.append(logocontainer);
+
+let imagen = creador ("img", "src", "./images/logo.svg");
+logocontainer.append(imagen);
+
+let iconcolletion = creador ("div", "class", "icon-colletion");
+
+
+let bajo = creador ("img", "src", "./images/bg-desktop.png");
+
+
 
 
 
