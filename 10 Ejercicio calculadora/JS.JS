@@ -80,6 +80,9 @@ function setTipCustomValue(){
         btn.classList.remove('btn-active');
     });
 
+    
+
+
     if(tipCustom.value !== ''){
         calculateTip();
     }

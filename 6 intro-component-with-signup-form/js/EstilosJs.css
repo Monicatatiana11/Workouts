@@ -3,6 +3,8 @@
     padding: 0%;
 
 }
+
+
 body {
 	height: 95vh;
 	display: flex;
@@ -14,11 +16,6 @@ body {
 	font-family: 'Poppins';
 }
 
-@keyframes mover {
-    0%, 100% {background-position: top; }
-    50% {background-position: bottom; }
-
-}
 
 .intro{    
        width: 1110px;

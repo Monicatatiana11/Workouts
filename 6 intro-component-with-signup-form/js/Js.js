@@ -68,7 +68,7 @@ lista_inputs.map((input) => {
                         input.classList.add("error_validacion");
                         mensaje_error.style.display = "none";
                     }
-                }  else if (input.placeholder == "Nombre" || input.placeholder == "Apellido") {
+                }  else if (input.placeholder == "Nombre" || input.placeholder == "Last name") {
                     if (!validaciones_para_nombres.test(input.value)) {
                         input.classList.add("error_validacion");
                         mensaje_error.style.display = "none";
