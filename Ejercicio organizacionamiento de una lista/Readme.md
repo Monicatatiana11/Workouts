@@ -7,3 +7,6 @@ El ejercicio del dia de hoy estuvo muy interante nos explicaron acerca del array
 - Join
 - Trim
 - G
+
+
+Complejo las funciones.
