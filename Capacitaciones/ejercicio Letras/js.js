@@ -12,7 +12,6 @@ height: linkCoords.height,
 top: linkCoords.top + window.scrollY,
 left: linkCoords.left + window.scrollX,
 };
-// :* :* :* :* :* :P :P si te quiero ahogar jajaja :P :P :* :* :* :* :* 
 highlight.style.width = `${coords.width}px`,
 highlight.style.height = `${coords.height}px`,
 highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;

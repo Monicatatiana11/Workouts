@@ -33,7 +33,7 @@ html {
     justify-content: center;
     border-radius: 50%;
     height: 100%;
-    transform: translateY(-3px); /* account for the height of the clock hands */
+    transform: translateY(-3px); 
   }
   .hand {
     width: 50%;

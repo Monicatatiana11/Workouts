@@ -1,0 +1,20 @@
+*{
+     margin: 0; padding: 0%;
+}
+
+body{
+    background-color: #F0FAFB;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo{
+background-image: url("images/bg-header-desktop.svg") ;
+width: 100%;
+height: 155px;
+top: 0%;
+background-color: #5da5a4;
+position: absolute;
+}

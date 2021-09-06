@@ -48,4 +48,8 @@ const calculateTime = runningTime => {
     const display_minutes = total_minutes.toString().padStart(2, "0");
 
     return `${display_minutes}:${display_seconds}`
+
+
+
+    high
 }
