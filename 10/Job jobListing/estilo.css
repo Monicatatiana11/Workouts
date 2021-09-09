@@ -1,0 +1,27 @@
+.hide{
+    display: none;
+
+}
+
+#keyWordContainer{
+    display: none;
+
+}
+
+#keyWordContainer.active{
+background-color: #FFFFFF;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+margin: 10px;
+width: 50%;
+box-shadow: 0px 9px 9px 0px #41796F;
+border-radius: 10px;
+
+}
+
+
+
+
