@@ -208,6 +208,7 @@ ul li:hover {
   border-top-right-radius:30px;
   border-bottom-right-radius:30px;
   position:relative;
+ 
 }
 .dropdown-btn {
   background:rgba(255,255,255,0.1);
@@ -240,6 +241,8 @@ ul li:hover {
   margin-right:auto;
   margin-top:35px;
   margin-bottom:15px;
+  transform: rotateY(360deg);  ///////      
+    
 }
 .credit-info-content {
   margin-top:25px;
@@ -274,4 +277,4 @@ ul li:hover {
   .pay-btn {
     border-radius:0px;
   }
-}0
+}
