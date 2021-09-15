@@ -136,6 +136,22 @@ ul li:hover {
 .full-width {
   width:100%;
 }
+
+.animacion{
+  animation:girar 5s;
+  animation-iteration-count: infinite;
+}
+ @keyframes girar {
+   0%{
+    transform: rotatey(180deg);     
+   }
+ }
+
+
+
+
+
+
 .pay-btn {
   border:none;
   background:#22b877;
@@ -240,10 +256,18 @@ ul li:hover {
   margin-left:auto;
   margin-right:auto;
   margin-top:35px;
-  margin-bottom:15px;
-  transform: rotateY(360deg);  ///////      
-    
+  margin-bottom:15px;  
 }
+
+.animacion{
+  animation:girar 5s infinite;
+}
+ @keyframes girar {
+   0%{
+    transform: rotatey(180deg); 
+   }
+ }
+
 .credit-info-content {
   margin-top:25px;
   -webkit-flex-flow:column;
