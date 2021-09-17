@@ -35,6 +35,47 @@ arreglo.forEach(dj => {
         botoncito.innerText = "Saber Mas";
         section.append(botoncito);
 
-        botoncito.onclick = function () {         
-        }
-});
+     let historia = crear ("p", "class", "biografia");
+        historia.innerText = biografia;
+        section.append(historia);
+    
+
+        let email = crear ("p", "class", "email");
+        email.innerText = correo;
+        section.append(email);  
+
+       
+
+        botoncito.addEventListener('click', ()=>{        
+
+          historia.classList.toggle('biografia');
+          email.classList.toggle('email');
+          historia.classList.toggle('active');
+          email.classList.toggle('active');
+
+        }) 
+    
+
+        })
+        
+
+        /*email.style.display="none";
+        historia.style.display="none"/*
+
+
+
+       /* botoncito.onclick = function () {           
+
+          if (email.style.display= "none") {
+            email.style.display="block";
+            historia.style.display="block";
+            
+          }     
+          
+          else{
+            email.style.display="none";
+            historia.style.display="none"; 
+          } 
+         
+          
+        }*/
