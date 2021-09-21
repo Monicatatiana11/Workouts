@@ -84,7 +84,7 @@ align-items: center;
 justify-content: center;
 }
 
-.boton{
+.footer{
 display: flex;
 width: 103px;
 height: 35px;
@@ -136,10 +136,7 @@ a{
     .letras{
         width: 100%;
     }
-
-    .boton{
-
-    }
+   
 }
 
 
