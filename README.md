@@ -98,6 +98,9 @@ Realizamos el número 4 el cual se veia mas facil pero tratar de ordernarlo se m
 
 ![image](https://user-images.githubusercontent.com/58921913/128784509-0b8aa46d-2995-48ff-a928-e1f03f9ee94e.png)
 
+Ultima semana Septiembre:
+Está semana que paso estuvo mas compleja realizamos diseños de la empresa SINCO la ultima fue la mas compleja que aunque se veía fácil no lo era, me ha costado mucho esta parte de la funcionalidad me estrese un poco y me coloque a realizar Codewars  y si funciono  un poco  relajarme aunque son complejas también  ya que son en ingles y pues  también logre avanzar en ello, me siento un poco triste porque no logre sacar el ejercicio ultimo como quería pero bueno se que voy a estudiar mas para próximos ejercicios lograrlo al 100% motivada cada día mas y aprovechando al máximo el semillero. 
+
 
 
 
