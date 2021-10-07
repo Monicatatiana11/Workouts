@@ -21,6 +21,9 @@ const dataCordinadora = await cordinadora.json();
 localStorage.setItem("Coordinadora", JSON.stringify(dataCordinadora));
 
 */
+
+
+//filtro
 let input = document.querySelector('#acceso');
 
 input.addEventListener('keyup',()=>{
@@ -89,7 +92,8 @@ scroll2.style.display = "block";
 function desplegar (auxiliar) {
     tabla.innerHTML= "" 
     fondo.style.display= "none"
-    tabla.innerHTML+=`<tr>         
+    tabla.innerHTML+=`<tr> 
+
     <td>Nombre</td>
     <td>Loggin</td>
     <td>Homologacion</td>
@@ -102,20 +106,22 @@ auxiliar.forEach(element =>{
     console.log(element.Nombre);
     console.log(element.Loggin);
     console.log(element.Homologacion);
+    let check = element.Homologacion ==null ? "": "checked"
+
     tabla.innerHTML+=`<tr> 
+    
+    <td><input type="checkbox" ${check}></td>
     <td>${element.Nombre}</td>
     <td>${element.Loggin}</td>
     <td>${element.Homologacion}</td>
     </tr>`    
+    
 })
     
 }
 
 
-function check() {
-    
-    
-}
+
 
 
 
