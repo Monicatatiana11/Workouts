@@ -41,8 +41,7 @@ input.addEventListener('keyup',()=>{
             if (cuenta == input.value.toLowerCase()) {
             
                 console.log(element)
-                llenarindice(element);
-                               
+                llenarindice(element);                              
 
             }
         });
@@ -109,7 +108,7 @@ auxiliar.forEach(element =>{
     let check = element.Homologacion ==null ? "": "checked"
 
     tabla.innerHTML+=`<tr> 
-    
+
     <td><input type="checkbox" ${check}></td>
     <td>${element.Nombre}</td>
     <td>${element.Loggin}</td>

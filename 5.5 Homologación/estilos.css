@@ -120,7 +120,7 @@ label{
 }
 
 .scroll2{
-    width: 95%;
+    width: 100%;
     margin:  10px auto;
     padding: 20px;        
     overflow-y: scroll;
