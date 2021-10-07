@@ -99,7 +99,47 @@ Realizamos el número 4 el cual se veia mas facil pero tratar de ordernarlo se m
 ![image](https://user-images.githubusercontent.com/58921913/128784509-0b8aa46d-2995-48ff-a928-e1f03f9ee94e.png)
 
 
+En esta semana aplicamos todo lo que habíamos visto la anterior semana sobre HTML y CSS, se vieron nuevos conceptos para mejorar nuestro desempeño en esta semana aplicamos la técnica de no usar las posiciones se mejora el código y se hace más responsivo, cada trabajo que iba realizando era un nuevo reto y cada vez me demoraba menos y la lógica que usaba era cada vez más entendible. En esta semana realizamos otra serie de ejercicios que nos ayudaron a fortalecer más nuestros conocimientos, tambien aprendi a aplicar una tecnicas mas simple a la hora de realizar estos ejercicios y fue que empezaba a maquetear desde la version movil y luego paso a la version desktop, me parcecio mas facil y mas ordenada esta tecnica.
 
+Ejercicios realizado en esta semana.
+
+image image image image
+
+Dia 17 
+
+En esta semana aprendí a realizar el maqueteado desde Flex-Box para aplicarlo en toda en la página con CSS fue al principio un poco difícil para acomodar todos los elementos pero a la, medida que iba entendiendo que no se necesitaba utilizar nada más si no Flex box el diseño en la página se iba viendo más organizado y más dinámico, aprendí a tener un poco más de semántica a la hora de realizar el maqueteado en HTML, y en base a unos ejercicios que practicamos esta semana aplicamos ya todos los conceptos que tenia de base y mi trabajo en código iba siendo más ordenado y limpio.
+
+Algunos ejercicios de esta semana.
+
+image image image image
+
+Se realizo una actividad con nuestros compañeros que se trataba de todos realizar una parte del ejercicio 9 y pues no avanzamos mucho ya que la lógica que tenemos cada uno es diferente y pues no falto más orden a la hora de realizar el ejercicio. image
+
+Dia diecinueve 
+
+En esta semana realice el ejercicio que no terminamos de hacer en la semana pasada con nuestros compañeros y fue un reto ya que esta vez era más grande la página tenía más elementos y tenía que ser más ordenado a la hora de realizar el ejercicio a final lo logre termina y tuve un gran avance en cuestión de semántica en código y en css fue aún más ordenado y limpio mi código.
+
+image image image image image
+
+También aprendimos conceptos básicos en JavaScript y al ser un lenguaje que apenas empiezo a ver me ha dado un poco duro ya que aprender algo nuevo implica conocer más a fondo sobre él, e indagar y practicar, necesito practicar y estudiar más sobre este nuevo lenguaje y así poder entender mejor sobre él, y esta semana realizamos el maqueteado desde JavaScript y a medida que iba usando este lenguaje iba entiendo mejor cómo funciona y me ha parecido interesante y con ganas de aprender más sobre el
+
+Dia 20
+
+En esta semana recibimos capacitación de para realizar actividades en JavaScript hicimos varias actividades cada una con un grado de dificultad más que la otra es bueno recibir información, ver y poder hacer los ejercicios son complejos al comienzo pero a medida que voy entiendo la lógica, es más practico hacer os ejercicios, el ejercicio que más duro me ha parecido fue el del Temporizador tenía un nivel de dificultad alto y pues entenderlo a la primera vez es complejo pero al final se obtuvo un buen resultado.
+
+image image image image image
+
+Novena Semana
+
+Esta semana fue un poco más compleja ya que realizamos una actividad en JavaScript donde nos pedían realizar un filtrado de búsqueda, al principio parecía fácil pero el nivel de complejidad se vio a la hora de realizar en JavaScript lo más importante fue que entre todo el equipo se logró realizar la actividad, también realizamos varios ejercicios con JS30 que cada vez son un poco más difíciles pero entendibles.
+
+Algunos ejercicios realizados esta semana.
+
+image image
+
+
+Ultima semana Septiembre:
+Está semana que paso estuvo mas compleja realizamos diseños de la empresa SINCO la ultima fue la mas compleja que aunque se veía fácil no lo era, me ha costado mucho esta parte de la funcionalidad me estrese un poco y me coloque a realizar Codewars  y si funciono  un poco  relajarme aunque son complejas también  ya que son en ingles y pues  también logre avanzar en ello, me siento un poco triste porque no logre sacar el ejercicio ultimo como quería pero bueno se que voy a estudiar mas para próximos ejercicios lograrlo al 100% motivada cada día mas y aprovechando al máximo el semillero.       
 
 
 

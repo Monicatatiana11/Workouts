@@ -1,0 +1,1 @@
+Muy interesante el ejercicio, lo estudiare y mirare nuevamente la grabación ya que no pude estar toda la sesión.

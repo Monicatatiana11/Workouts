@@ -1,0 +1,10 @@
+{
+  "name": "figma to html",
+  "id": "1019267250917503521",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}

@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 40px 0 40px;
+    background-color: #e7f0f0;
+    color: #6E7E8D;
+    font-family: 'Roboto';
+    font-weight: 600;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.arriba{
+  width: 95%;
+  position: fixed;
+  top: 0%;
+
+}
+
+.titulo{
+    height: 85px;
+    font-size: 40px;
+    border-bottom: 3px solid #999999;
+    display: flex;
+    align-items: center;
+}
+
+.todo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button{
+    margin-top: 4px;
+    background-color: #4c88b5;
+    color: #e7f0f0;
+}
+
+.principal{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #C9C9C9;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px 15px 6px 15px;
+    background-color: #FFF;
+}
+
+button,input,select{
+    border-radius: 5px;
+    height: 25px;
+    margin: 4px 0 4px 0;
+    width: 50%;
+    }
+
+#file-upload-button{
+    width: 20%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.carga{
+    width: 30%;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+input,select{
+    border: 2px solid #999;
+}
+
+.formulario{
+    width: 50%;
+}
+
+
+
+.p{
+    width: 50%;
+    padding: 0%;
+    height: 25px;
+
+}
+.activado{
+    background-image: url("./Design/images/boton.jpg");
+    
+    }
+    
+    .desactivado{
+        background-image: url("./Design/images/boton2.jpg");
+    }
+
+.check2{
+width: 49px;
+background-repeat: no-repeat;
+height: 100%;
+background-size: cover;
+display: flex;
+}
+
+
+.check{
+    margin: auto;
+    opacity: 0%;
+}
+
+.boton{
+background-color: #667788;
+color: cornsilk;
+align-self: center;
+top: 0%;
+
+
+}
+
