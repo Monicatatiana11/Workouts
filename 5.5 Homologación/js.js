@@ -1,5 +1,4 @@
 let informacion = document.querySelector('.informacion');
-
 let fondo = document.querySelector(".fondo");
 let scroll2 = document.querySelector(".scroll2");
 scroll2.style.display = "none";
@@ -22,8 +21,33 @@ const dataCordinadora = await cordinadora.json();
 localStorage.setItem("Coordinadora", JSON.stringify(dataCordinadora));
 
 */
- 
+let input = document.querySelector('#acceso');
 
+input.addEventListener('keyup',()=>{
+    let divs = Array.from(document.querySelectorAll('.div'));
+    divs.map((div)=>div.remove(this))
+
+    if (input.value == 0) {
+        data1.forEach(element => {
+            llenarindice(element);
+                });
+    } else {
+        data1.forEach(element => {
+            let cuenta = element.Descripcion.substr(0,input.value.length).toLowerCase()
+
+            if (cuenta == input.value.toLowerCase()) {
+            
+                console.log(element)
+                llenarindice(element);
+                               
+
+            }
+        });
+    }
+})
+
+
+//tabla//
 
 let tabla = document.querySelector(".tabla");
 
@@ -33,9 +57,8 @@ let data3 = JSON.parse(localStorage.getItem("Coordinadora"))
 let data2 = JSON.parse(localStorage.getItem("Acceso"))
 
 
-data1.forEach(element => {
-
-let texto = document.createElement('p');
+function llenarindice (element) {
+    let texto = document.createElement('p');
 texto.textContent=element.Descripcion;
 
 let div = document.createElement('div');
@@ -60,20 +83,16 @@ scroll2.style.display = "block";
 
      }
 })
-
-});
-
-
+    
+}
 
 function desplegar (auxiliar) {
-
     tabla.innerHTML= "" 
     fondo.style.display= "none"
-        tabla.innerHTML+=`<tr> 
-        
-    <th>Nombre</th>
-    <th>Loggin</th>
-    <th>Homologacion</th>
+    tabla.innerHTML+=`<tr>         
+    <td>Nombre</td>
+    <td>Loggin</td>
+    <td>Homologacion</td>
     </tr>`
 
 auxiliar.forEach(element =>{
@@ -87,9 +106,14 @@ auxiliar.forEach(element =>{
     <td>${element.Nombre}</td>
     <td>${element.Loggin}</td>
     <td>${element.Homologacion}</td>
-    </tr>`
-    
+    </tr>`    
 })
+    
+}
+
+
+function check() {
+    
     
 }
 

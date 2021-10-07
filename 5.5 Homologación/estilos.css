@@ -80,7 +80,7 @@ label{
 .opciones{
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     border-bottom: solid 2px #DDDDDD;
     color: #497DAE;
     width: 100%;
@@ -93,7 +93,7 @@ label{
 }
 
 .check{
-    width: 20%;
+    width: 25%;
 }
 
 .fondo{
@@ -120,7 +120,7 @@ label{
 }
 
 .scroll2{
-    width: 68%;
+    width: 95%;
     margin:  10px auto;
     padding: 20px;        
     overflow-y: scroll;
