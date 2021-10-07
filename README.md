@@ -98,6 +98,11 @@ Realizamos el número 4 el cual se veia mas facil pero tratar de ordernarlo se m
 
 ![image](https://user-images.githubusercontent.com/58921913/128784509-0b8aa46d-2995-48ff-a928-e1f03f9ee94e.png)
 
+Ultima semana Septiembre:
+
+
+Está semana que paso estuvo mas compleja realizamos diseños de la empresa SINCO la ultima fue la mas compleja que aunque se veía fácil no lo era, me ha costado mucho esta parte de la funcionalidad me estrese un poco y me coloque a realizar Codewars  y si funciono  un poco  relajarme aunque son complejas también  ya que son en ingles y pues  también logre avanzar en ello, me siento un poco triste porque no logre sacar el ejercicio ultimo como quería pero bueno se que voy a estudiar mas para próximos ejercicios lograrlo al 100% motivada cada día mas y aprovechando al máximo el semillero. 
+
 
 En esta semana aplicamos todo lo que habíamos visto la anterior semana sobre HTML y CSS, se vieron nuevos conceptos para mejorar nuestro desempeño en esta semana aplicamos la técnica de no usar las posiciones se mejora el código y se hace más responsivo, cada trabajo que iba realizando era un nuevo reto y cada vez me demoraba menos y la lógica que usaba era cada vez más entendible. En esta semana realizamos otra serie de ejercicios que nos ayudaron a fortalecer más nuestros conocimientos, tambien aprendi a aplicar una tecnicas mas simple a la hora de realizar estos ejercicios y fue que empezaba a maquetear desde la version movil y luego paso a la version desktop, me parcecio mas facil y mas ordenada esta tecnica.
 
