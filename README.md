@@ -147,4 +147,7 @@ Ultima semana Septiembre:
 Está semana que paso estuvo mas compleja realizamos diseños de la empresa SINCO la ultima fue la mas compleja que aunque se veía fácil no lo era, me ha costado mucho esta parte de la funcionalidad me estrese un poco y me coloque a realizar Codewars  y si funciono  un poco  relajarme aunque son complejas también  ya que son en ingles y pues  también logre avanzar en ello, me siento un poco triste porque no logre sacar el ejercicio ultimo como quería pero bueno se que voy a estudiar mas para próximos ejercicios lograrlo al 100% motivada cada día mas y aprovechando al máximo el semillero.       
 
 
+Primera semana de octubre:
+Esta semana realizamos el  workout numero 2 de la empresa SINCO a diferencia del 1 me fue mucho mejor este lo logre terminar, cumplí con el objetivo siento que ya aprendí a usar más el localStorage ya un poco mejor en la funcionalidad con los JSON muy contenta ya que a diferencia del primero que  me fue mucho más complejo. Cada día se aprende algo nuevo y de los errores aún más como siempre contenta de estar en el semillero  aprendiendo cada día más y aprovechando el tiempo aquí. 
+
 
