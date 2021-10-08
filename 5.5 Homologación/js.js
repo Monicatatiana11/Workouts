@@ -25,8 +25,13 @@ localStorage.setItem("Coordinadora", JSON.stringify(dataCordinadora));
 
 //filtro
 let input = document.querySelector('#acceso');
-
+document.addEventListener('DOMContentLoaded',()=>{llenarizq()})
 input.addEventListener('keyup',()=>{
+    document.removeEventListener('DOMContentLoaded',()=>{llenarizq()})
+    llenarizq()
+})
+
+function llenarizq() {
     let divs = Array.from(document.querySelectorAll('.div'));
     divs.map((div)=>div.remove(this))
 
@@ -40,13 +45,15 @@ input.addEventListener('keyup',()=>{
 
             if (cuenta == input.value.toLowerCase()) {
             
-                console.log(element)
+            
                 llenarindice(element);                              
 
             }
         });
     }
-})
+
+}
+
 
 
 //tabla//
@@ -101,23 +108,39 @@ function desplegar (auxiliar) {
 auxiliar.forEach(element =>{
 
     let texto = document.createElement('p');    
-    texto.textContent=element.Descripcion;
-    console.log(element.Nombre);
-    console.log(element.Loggin);
-    console.log(element.Homologacion);
+    texto.textContent=element.Descripcion;   
     let check = element.Homologacion ==null ? "": "checked"
 
     tabla.innerHTML+=`<tr> 
-
-    <td><input type="checkbox" ${check}></td>
+    <td><input type="checkbox" class="inputcheck" ${check}></td> 
     <td>${element.Nombre}</td>
     <td>${element.Loggin}</td>
     <td>${element.Homologacion}</td>
     </tr>`    
     
 })
-    
+let checks = Array.from(document.querySelectorAll('.inputcheck'));
+let marcartodos = document.querySelector('#marcar');
+marcartodos.addEventListener('click',()=>{    
+     checks.map((check)=>{
+console.log("marcar")
+        check.checked = true;
+    })
+   
+})
+let desmarcartodos = document.querySelector('#desmarcar');
+
+desmarcartodos.addEventListener('click',() =>{
+    checks.map((check)=>{
+        console.log("desmarcar")
+                check.checked = false;
+        
+})
+})
 }
+
+
+
 
 
 
