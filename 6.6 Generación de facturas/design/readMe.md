@@ -1,3 +1,8 @@
+Figma:
+
+https://www.figma.com/file/Chbc57UzLXkqoIhvqlGiII/Ejercicio-6.6
+
+
 ### Bill Generator
 
 For this code Challenge we will be similating The 'Sinco Bill Generator Page'
