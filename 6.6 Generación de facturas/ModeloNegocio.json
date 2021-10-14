@@ -1,4 +1,4 @@
-"modelosNegocio": [
+
     {
       "codigo": 5,
       "nombre": "Actas de avance Adpro",
@@ -551,5 +551,4 @@
       "origenIntegracion": "FYC",
       "prefijo": "SC"
     }
-  ]
-}
+  

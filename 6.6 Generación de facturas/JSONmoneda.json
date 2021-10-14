@@ -1,5 +1,4 @@
-{
-    "monedas": [
+[
       {
         "codigo": 1,
         "descripcion": "Peso Colombiano",
@@ -105,4 +104,4 @@
         "simbolo": "C$",
         "funcional": false
       }
-    ],
+    ]
