@@ -150,4 +150,7 @@ Está semana que paso estuvo mas compleja realizamos diseños de la empresa SINC
 Primera semana de octubre:
 Esta semana realizamos el  workout numero 2 de la empresa SINCO a diferencia del 1 me fue mucho mejor este lo logre terminar, cumplí con el objetivo siento que ya aprendí a usar más el localStorage ya un poco mejor en la funcionalidad con los JSON muy contenta ya que a diferencia del primero que  me fue mucho más complejo. Cada día se aprende algo nuevo y de los errores aún más como siempre contenta de estar en el semillero  aprendiendo cada día más y aprovechando el tiempo aquí. 
 
+Segunda semana de octubre:
+Esta semana empezamos con un workOut nuevo, este viene para hacer más funcionalidades, algo que me pareció chévere fue realizar  la animación de carga de una página, este ejercicio es largo pero se puede estudiar mucho respecto a las validaciones que hay que realizar. El ejercicio es complejo pero he logrado realizarlo sin problemas ya que me he basado en los anteriores aunque me ha tomado tiempo.  HJ logrado avanzar cuando me quedo estancada muy interesante y espero seguir aprendiendo cada día más en el semillero.
+
 
