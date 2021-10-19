@@ -1,5 +1,8 @@
 const selectMoneda = document.querySelector("select");
 let btnGenerar = document.querySelector('.Generar');
+let selecion = []
+let buttonCerrar = document.querySelector(".cerrar");
+
 
     fetch('JSONmoneda.json')
     .then(respuesta => respuesta.json())
@@ -9,72 +12,71 @@ let btnGenerar = document.querySelector('.Generar');
             selectMoneda.append(option)
             option.innerHTML += `
           ${moneda.descripcion}${moneda.abreviatura}`
-
         })
     });
-
     let negocio = document.querySelector(".scroll");    
 
 let tabla = document.createElement("table");
+tabla.classList.add('moverScroll');
 negocio.append(tabla);
+let fechaInicio = document.querySelector(".fechaInicial");
+let fechaFinal = document.querySelector(".fechaFinal");
+let ordenDeFacturacion = document.querySelector(".ordenDeFacturacion");
+let Cliente = document.querySelector(".Cliente");
+let ModeloDeNegocio = document.querySelector(".ModeloDeNegocio");
+
+
 
 function llenar() {
     tabla.innerHTML= ` 
     <th>Ver</th>
     <th>Ordenes de facturación</th>
     <th>Fecha de registro</th> 
+    <th>Cliente</th>
+    <th>Forma de pago</th>
+    <th>Modelo de negocio </th>
     <th>Forma de pago</th>
     <th>Fecha de vencimiento</th>
-    <th>Valor total a cobrar </th>
-    <th>Valor anticipo</th>
-    <th>Asociar anticipo</th>
-    <th>Asociar anticipo</th>
+    <th>Valor total a cobrar</th>
     <td><img src="./design/icono no seleccionado.svg" alt=""></td>`;  
 
     fetch('Filtrar.json')
     .then(respuesta => respuesta.json())
     .then(respuesta => {    
-        respuesta.forEach(filtrar => {
+        respuesta.forEach(cliente => {
             //icono_factura
-            let factura;
-            if (filtrar.asociarAnticipo != "") {
-                 factura = "<img src='./design/iconooo$$$.svg'></img>";
-            }else{
-                factura = "";
+            if (cliente.fechaRegistro >= fechaInicio.value && cliente.fechaRegistro.substr(0,10) <= fechaFinal.value) {                
+                llenadotabla(cliente)
+            } else if (cliente.codigoOrdenDeFacturacion == ordenDeFacturacion.value) {
+                llenadotabla(cliente)
+            } else if (cliente.clienteNombre == Cliente.value) {
+                llenadotabla(cliente)
+            } else if (cliente.modeloNegocio == ModeloDeNegocio.value){//////////////////////////////////
+                llenadotabla(cliente)
+            } else if (fechaInicio.value == "" && fechaFinal.value == "" && ordenDeFacturacion.value == "" && Cliente.value == "" && ModeloDeNegocio.value == "") {
+                llenadotabla(cliente)
             }
-            tabla.innerHTML+=`            
-            <td class="ico">
-            <div class="aux">
-            <img src="./design/icono documento azul.svg">
-            <img src="./design/icono adobe azul.svg">            
-            </div>
-            </td>
-            <td>${filtrar.codigoOrdenDeFacturacion}</td>
-            <td>${filtrar.fechaRegistro}</td>
-            <td>${filtrar.clienteNombre}</td>
-            <td>
-            <select class="seleccionar">
-             <option>SELECCIONE</option>
-             <option>15 dias</option>
-             <option>30 dias</option>
-             <option>45 dias</option>
-             <option>60 dias</option>
-            </select></td>
-            <td>${filtrar.modeloNegocio}</td>
-            <td>${filtrar.descripcionOrdenFacturacion}</td>
-            <td>${filtrar.fechaVencimiento}</td>
-            <td>${filtrar.valorTotalACobrar}</td>
-            <td>${factura}</td>
-            <td><div class="imgCheck"></div></td>            
-                `    
         })
-        let checks = Array.from(document.querySelectorAll('.imgCheck'))
-        checks.map((check)=>{
-            check.addEventListener('click',()=>{
-                check.classList.toggle('imgChecked');
-                btnGenerar.classList.remove('inactivo')
+        let checks = Array.from(document.querySelectorAll('.imgCheck'));
+        let selects = Array.from(document.querySelectorAll('.seleccionar'));
+        selects.forEach(e => {
+            e.addEventListener('change',()=>{
+                if (e.value == 'SELECCIONE') {
+                    checks.map((check)=>{
+                        if (check.id == e.id) {
+                            check.classList.remove('imgChecked')
+                        }
+                    })
+                } else {
+                    checks.map((check)=>{
+                        if (check.id == e.id) {
+                            btnGenerar.classList.remove('inactivo')
+                            check.classList.add('imgChecked')
+                        }
+                    })
+                }
             })
-        })
+        });
     });
 }
 
@@ -102,6 +104,7 @@ function animacion() {
 let btnConsultar = document.querySelector('.Consultar')
 btnConsultar.addEventListener('click',()=>{llenar()
 filtrar.style.display = "none";
+
 animacion();
 })
 
@@ -118,16 +121,61 @@ let emergente = document.createElement('div');
 let cerrar = document.createElement('div');
 
 emergente.classList.add('emergente');
+let divtabla = document.querySelector(".tabla");
 
 btnGenerar.addEventListener('click',()=>{
     if (btnGenerar.classList.contains('inactivo') == true) {}
-     else {
-alert("aca deberia haber un div")
+     else {        
+let tablaFactura = document.querySelector(".tablaFactura");
+divtabla.style.display= "flex";
+selecion.forEach(s => {
+    tablaFactura.innerHTML+= `<td>${s.codigoOrdenDeFacturacion}$</td>
+    <td>${s.codigoOrdenDeFacturacion}</td>
+    <td>${s.codigoOrdenDeFacturacion}</td>
+    <td>${s.codigoOrdenDeFacturacion}</td>
+    <td>${s.codigoOrdenDeFacturacion}</td>`
+});
+
     }
 })
+buttonCerrar.addEventListener('click',()=>{
+    divtabla.style.display ="none";
 
-cerrar.addEventListener('click',()=>{
-emergente.remove(this);
+
 })
 
-//check
+function llenadotabla(dato) {
+    let factura;
+    if (filtrar.asociarAnticipo != "") {
+         factura = "<img src='./design/iconooo$$$.svg'></img>";
+    }else{
+        factura = "";
+    }
+    tabla.innerHTML+=`            
+    <td class="ico">
+    <div class="aux">
+    <img src="./design/icono documento azul.svg">
+    <img src="./design/icono adobe azul.svg">            
+    </div>
+    </td>
+    <td>${dato.codigoOrdenDeFacturacion}</td>
+    <td>${dato.fechaRegistro}</td>
+    <td>${dato.clienteCodigo}-${dato.clienteNombre}</td>
+    <td>
+    <select id="${dato.codigoOrdenDeFacturacion}" class="seleccionar">
+     <option>SELECCIONE</option>
+     <option>15 dias</option>
+     <option>30 dias</option>
+     <option>45 dias</option>
+     <option>60 dias</option>
+    </select></td>
+    <td>${dato.modeloNegocio}</td>
+    <td>${dato.descripcionOrdenFacturacion}</td>
+    <td>${dato.fechaVencimiento}</td>
+    <td>${dato.valorTotalACobrar}</td>
+    <td>${factura}</td>
+    <td><div id="${dato.codigoOrdenDeFacturacion}"class="imgCheck"></div></td>  
+
+        `    
+
+}

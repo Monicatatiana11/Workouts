@@ -22,7 +22,7 @@
                     <img src="./design/calendario.svg" alt="imagencalendario">
                     <div class="label"> 
                         <label for="fechaInicial">Fecha Inicial</label>
-                        <input type="date" name="" id="fechaIncial" required>
+                        <input class="fechaInicial" type="date" name="" id="fechaIncial" required>
                     </div>
                 </div>
 
@@ -30,17 +30,16 @@
                     <img src="./design/calendario.svg" alt="">
                     <div class="label"> 
                         <label for="fechaInicial">Fecha Final</label>
-                        <input type="date" name="" id="fechaIncial" required>
+                        <input class="fechaFinal"  type="date" name="" id="fechaIncial" required>
                     </div>
             </section>
-
 
             <section class="sectionOtrosFiltros">
                 <div class="div">
                     <img src="./design/icono orden de facturacion.svg" alt="">
                     <div class="label">
                         <label for="">Orden de facturación </label>
-                        <input type="text" placeholder="Numero de orden de facturación" class="input">
+                        <input class="ordenDeFacturacion" type="text" placeholder="Numero de orden de facturación" class="input">
                     </div>
 
                 </div>
@@ -49,7 +48,7 @@
                     <img src="./design/icono cliente.svg" alt="">
                     <div class="label" >
                         <label for="">Cliente  </label>
-                        <input type="text" placeholder="Buscar el cliente" class="input">
+                        <input class="Cliente" type="text" placeholder="Buscar el cliente" class="input">
                     </div>
 
                 </div>
@@ -57,7 +56,7 @@
                     <img src="./design/icono modelo de negocio.svg" alt="">
                     <div class="label">
                         <label for="">Modelo de negocio </label>
-                        <input type="text" placeholder="Buscar el modelo de negocio" class="input">
+                        <input class="ModeloDeNegocio"  type="text" placeholder="Buscar el modelo de negocio" class="input">
                     </div>
 
                 </div>
@@ -90,8 +89,22 @@
             </div>
         </aside>
 
-        
+    <div class="tabla"> 
+        <div class="encabezado">
+            <h3>Órdenes de facturacion procesadas</h3>
+            <button class="cerrar">x</button>
+        </div>     
+        <table class="tablaFactura">      
+            <td>Orden de facturacion</td>
+            <td>Tipo documento</td>
+            <td>Factura</td>
+            <td>Valor</td>
+            <td>Ver</td>           
+        </table>
+    </div>        
 
         <script type="module"  src="Jsjs.js"> </script>
     </body>
 </html>
+
+
