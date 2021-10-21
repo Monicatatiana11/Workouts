@@ -2,8 +2,6 @@ const selectMoneda = document.querySelector("select");
 let btnGenerar = document.querySelector('.Generar');
 let selecion = []
 let buttonCerrar = document.querySelector(".cerrar");
-
-
     fetch('JSONmoneda.json')
     .then(respuesta => respuesta.json())
     .then(respuesta => {
@@ -25,8 +23,7 @@ let ordenDeFacturacion = document.querySelector(".ordenDeFacturacion");
 let Cliente = document.querySelector(".Cliente");
 let ModeloDeNegocio = document.querySelector(".ModeloDeNegocio");
 
-
-
+let minitabla = [];
 function llenar() {
     tabla.innerHTML= ` 
     <th>Ver</th>
@@ -45,13 +42,14 @@ function llenar() {
     .then(respuesta => {    
         respuesta.forEach(cliente => {
             //icono_factura
-            if (cliente.fechaRegistro >= fechaInicio.value && cliente.fechaRegistro.substr(0,10) <= fechaFinal.value) {                
+            if (cliente.fechaRegistro >= fechaInicio.value && cliente.fechaRegistro <= fechaFinal.value) {                
                 llenadotabla(cliente)
             } else if (cliente.codigoOrdenDeFacturacion == ordenDeFacturacion.value) {
                 llenadotabla(cliente)
             } else if (cliente.clienteNombre == Cliente.value) {
                 llenadotabla(cliente)
-            } else if (cliente.modeloNegocio == ModeloDeNegocio.value){//////////////////////////////////
+            } else if (cliente.modeloNegocio == ModeloDeNegocio.value){
+                
                 llenadotabla(cliente)
             } else if (fechaInicio.value == "" && fechaFinal.value == "" && ordenDeFacturacion.value == "" && Cliente.value == "" && ModeloDeNegocio.value == "") {
                 llenadotabla(cliente)
@@ -70,6 +68,16 @@ function llenar() {
                 } else {
                     checks.map((check)=>{
                         if (check.id == e.id) {
+                            fetch('Filtrar.json')
+                            .then(respuesta => respuesta.json())
+                            .then(respuesta => {    
+                                respuesta.forEach(cliente => {
+                                    if(cliente.codigoOrdenDeFacturacion == e.id){
+                                        minitabla.push(cliente);
+                                    }
+                                })
+                             })
+                            
                             btnGenerar.classList.remove('inactivo')
                             check.classList.add('imgChecked')
                         }
@@ -79,7 +87,6 @@ function llenar() {
         });
     });
 }
-
 let filtrar = document.querySelector('.sectionOtrosFiltros'); 
 function animacion() {   
     let div = document.createElement('div');
@@ -99,14 +106,12 @@ function animacion() {
         btnGenerar.style.display="block";
         BtnFiltrar.style.display="block";
      }, 1000);
-}
+    }
 
 let btnConsultar = document.querySelector('.Consultar')
 btnConsultar.addEventListener('click',()=>{llenar()
 filtrar.style.display = "none";
-
-animacion();
-})
+animacion();})
 
 let BtnFiltrar = document.querySelector('.Filtrar')
 BtnFiltrar.addEventListener('click',()=>{llenar()
@@ -128,25 +133,21 @@ btnGenerar.addEventListener('click',()=>{
      else {        
 let tablaFactura = document.querySelector(".tablaFactura");
 divtabla.style.display= "flex";
-selecion.forEach(s => {
-    tablaFactura.innerHTML+= `<td>${s.codigoOrdenDeFacturacion}$</td>
+minitabla.forEach(s => {
+    tablaFactura.innerHTML+= `
     <td>${s.codigoOrdenDeFacturacion}</td>
-    <td>${s.codigoOrdenDeFacturacion}</td>
-    <td>${s.codigoOrdenDeFacturacion}</td>
-    <td>${s.codigoOrdenDeFacturacion}</td>`
-});
-
+    <td>${s.modeloNegocio}</td>
+    <td>${s.clienteNombre}</td>
+    <td>${s.clienteIdentificacion}</td>
+    <td><img src="./design/iconoazul3.0plus.svg"></td>`});
     }
 })
 buttonCerrar.addEventListener('click',()=>{
     divtabla.style.display ="none";
-
-
 })
-
 function llenadotabla(dato) {
     let factura;
-    if (filtrar.asociarAnticipo != "") {
+    if (dato.asociarAnticipo != "") {
          factura = "<img src='./design/iconooo$$$.svg'></img>";
     }else{
         factura = "";
@@ -175,7 +176,6 @@ function llenadotabla(dato) {
     <td>${dato.valorTotalACobrar}</td>
     <td>${factura}</td>
     <td><div id="${dato.codigoOrdenDeFacturacion}"class="imgCheck"></div></td>  
+        `  }
 
-        `    
 
-}
