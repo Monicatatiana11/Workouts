@@ -125,7 +125,6 @@ Dia diecinueve
 
 En esta semana realice el ejercicio que no terminamos de hacer en la semana pasada con nuestros compañeros y fue un reto ya que esta vez era más grande la página tenía más elementos y tenía que ser más ordenado a la hora de realizar el ejercicio a final lo logre termina y tuve un gran avance en cuestión de semántica en código y en css fue aún más ordenado y limpio mi código.
 
-image image image image image
 
 También aprendimos conceptos básicos en JavaScript y al ser un lenguaje que apenas empiezo a ver me ha dado un poco duro ya que aprender algo nuevo implica conocer más a fondo sobre él, e indagar y practicar, necesito practicar y estudiar más sobre este nuevo lenguaje y así poder entender mejor sobre él, y esta semana realizamos el maqueteado desde JavaScript y a medida que iba usando este lenguaje iba entiendo mejor cómo funciona y me ha parecido interesante y con ganas de aprender más sobre el
 
@@ -141,7 +140,6 @@ Esta semana fue un poco más compleja ya que realizamos una actividad en JavaScr
 
 Algunos ejercicios realizados esta semana.
 
-image image
 
 
 Ultima semana Septiembre:
