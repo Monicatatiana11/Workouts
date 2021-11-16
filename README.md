@@ -9,6 +9,7 @@ Figma.
 https://www.figma.com/file/wNZproot0bjv327gjHhNSX/Untitled
 
 
+
 PRIMER DIA
 Realice la vista de la página de gmail mac tableta, cuadre los colores de la página y realice icono M de gmail, valide unos tutoriales de colores.
 
