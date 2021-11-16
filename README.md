@@ -1,5 +1,9 @@
 # Semillero
 
+Monica tatiana cuervo rios
+Tel: 3133835927
+Para dudas e inquietudes
+
 proyecto figma
 
 Primera semana
