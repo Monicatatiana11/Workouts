@@ -1,5 +1,9 @@
 # Semillero
 
+Monica tatiana cuervo rios
+Tel: 3133835927
+Para dudas e inquietudes
+
 proyecto figma
 
 Primera semana
@@ -7,6 +11,7 @@ Yo cree la pagina a vista mia y una imagen que descargue de Gmail para tableta.
 
 Figma.
 https://www.figma.com/file/wNZproot0bjv327gjHhNSX/Untitled
+
 
 
 PRIMER DIA
@@ -124,7 +129,6 @@ Dia diecinueve
 
 En esta semana realice el ejercicio que no terminamos de hacer en la semana pasada con nuestros compañeros y fue un reto ya que esta vez era más grande la página tenía más elementos y tenía que ser más ordenado a la hora de realizar el ejercicio a final lo logre termina y tuve un gran avance en cuestión de semántica en código y en css fue aún más ordenado y limpio mi código.
 
-image image image image image
 
 También aprendimos conceptos básicos en JavaScript y al ser un lenguaje que apenas empiezo a ver me ha dado un poco duro ya que aprender algo nuevo implica conocer más a fondo sobre él, e indagar y practicar, necesito practicar y estudiar más sobre este nuevo lenguaje y así poder entender mejor sobre él, y esta semana realizamos el maqueteado desde JavaScript y a medida que iba usando este lenguaje iba entiendo mejor cómo funciona y me ha parecido interesante y con ganas de aprender más sobre el
 
@@ -140,7 +144,6 @@ Esta semana fue un poco más compleja ya que realizamos una actividad en JavaScr
 
 Algunos ejercicios realizados esta semana.
 
-image image
 
 
 Ultima semana Septiembre:
@@ -153,4 +156,22 @@ Esta semana realizamos el  workout numero 2 de la empresa SINCO a diferencia del
 Segunda semana de octubre:
 Esta semana empezamos con un workOut nuevo, este viene para hacer más funcionalidades, algo que me pareció chévere fue realizar  la animación de carga de una página, este ejercicio es largo pero se puede estudiar mucho respecto a las validaciones que hay que realizar. El ejercicio es complejo pero he logrado realizarlo sin problemas ya que me he basado en los anteriores aunque me ha tomado tiempo.  HJ logrado avanzar cuando me quedo estancada muy interesante y espero seguir aprendiendo cada día más en el semillero.
 
+Tercera semana octubre:
+
+
+Esta semana continuamos con el ejercicio de la pasada la verdad con el tiempo que tuvimos este lo logre ya al 100% de verdad cada semana se aprende algo nuevo se siente bien tenerlo completo  fue interesante todo lo que toco realizarle, Ya entiendo más las funciones me entiendo con ellas y ya las se manejar en varias cosas una sola por ende se optimiza bastante código, con las katas también se logra desarrollar más habilidades o lógica para realizar los ejercicios, como siempre contenta en el semillero y esperando aprender mucho mucho mas mi objetivo es quedarme en la empresa.
+
+Cuarta semana octubre:
+Esta semana realizamos un ejercicio en grupo el cual realizamos Albeiro David y yo realizando una lista de tareas ,el cual fue muy chévere en realidad nuestro ejercicio trae bastante funcionalidad lo cual cada uno pudo aportar cosas nuevas es muy interesante y chévere, nos entendimos como grupo  fue una semana muy productiva, algo muy bueno cuando cada alguien aporta algo nuevo y que los demás no sabemos. este ejercicio colocamos en conocimiento literal todo lo que hemos venido viendo en el semillero aparte compramos un dominio y hosting para este ejercicio y poder utilizarlo en maso menos dos o tres ejercicios más ya que es por un mes. 
+
+ 
+ Primera semana Noviembre:
+
+Esta semana continuamos con el ejercicio lista de tareas  con nuestro grupo de trabajo lo cual me pareció muy interesante y que pudimos terminar el ejercicio al 100% aunque nos géneros varios problemas pero se logro el objetivo.  Esta semana aprendimos mucho el trabajo en equipo a resolver problemas a realizar un poco mas de lo que nos piden para llenar las expectativas al 100% a manejar funcionalidades entre todos  por otra parte aprendí  a  consumir un API como siempre contenta en el semillero, aprendiendo cada día mas y de mis compañeros.
+
+Segunda semana noviembre:
+
+Esta semana ha sido una semana muy chévere con muchos conocimientos nuevos, el tema de HTTP  y cliente servidor es muy extenso quizás tedioso con todo lo que surge de el  pero super interesante, siento que aprendo mucho cuando todo no lo enseñan a su tiempo y con la mejor disposición. El día  miércoles fue un buen día ya que nos pudimos conocer todos  en persona socializar y en si tener un poco mas de confianza,  Andrés nos explicó de una forma muy acertada el tema de cliente servidor y compartimos un tiempo  estudiando ente todos y socializando muy chévere.
+
+ 
 
