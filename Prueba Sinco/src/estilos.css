@@ -32,7 +32,7 @@ main{
   grid-template-rows: 30vh 30vh 30vh;
   column-gap: 100px;
   row-gap: 50px;
-
+  border: solid #787575  ;
   overflow-y: scroll;
   width: 80%;
 }
@@ -92,7 +92,29 @@ content:url("../images/GruaAmarillo.svg");
  color: #f7f7f7;
  font-weight: bold; 
 }
-
-.opcion5{
+.ContenedorPrincipal{
   display: none;
 }
+
+.tituloPrincipal2{
+width: 45%;
+align-self: center;
+color: #f7f7f7;
+background-color: #D7B35A;
+border-radius: 5px 5px 0px 0px;
+text-align: center;
+margin-top: 20px;
+height: 40px;
+}
+.Sectionopciones2{
+  box-shadow: 0 10px 10px #c7c7c7;
+  display: flex;
+  border: solid firebrick;
+  width: 60%;
+  justify-content: space-between;
+  height: max-content;
+}
+.Sectionopciones2 div{
+  display: flex;
+flex-direction: column;
+align-items: center;}
