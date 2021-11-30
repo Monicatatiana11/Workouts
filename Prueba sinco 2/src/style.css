@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  :focus{
+      outline: none;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .tituloPrincipal{
+    color: #008DD6;
+    text-align: center;
+  }
+
+  .contenedorFiltroPrincipal,
+  main,
+  .filtrosActivos{
+    width: 95%;
+  }
+
+.FiltroPrincipal{
+    min-width: 250px;
+    width: 50%;
+    height: 30px;
+    }   
+.consultar{
+    background-color: #25ADE8;
+    color: #ffffff;
+    width: 75px;
+    height: 26px;
+    border-radius: 5px;
+    border: 0;    
+}
+.consultar:hover{
+    background-color: #25aee8ab;  
+}
+main{
+    height: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+.bandeja{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    justify-content: space-between;
+}
+input, select{
+    padding-left: 10px;
+}
+.FiltroId{
+    background-image: url('../images/icono-id.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 30px;
+}
+
+.inputID{
+    width: 50%;
+    height: 30px;
+}
+
+.inputID,
+.FiltroPrincipal,
+.FiltroId,
+.adjuntos,
+.menus,
+.entradas,
+.visorInformacion,
+input,
+select{
+    box-shadow: 4px 4px 4px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    border:1px solid #C4C4C4;
+}
+
+.entradas{
+    height: 81%;
+    overflow-y: scroll;
+}
+
+.entradas::-webkit-scrollbar{
+opacity: 0;
+}
+.flechas{
+color: #C7C7C7;
+font-weight: 900;
+ height: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;   
+}
+
+.informacion{
+    width: 79%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 30px repeat(5, 1fr);
+    column-gap: 15px;
+    row-gap: 20px;
+}
+.adjuntos{
+    grid-column: 2;
+}
+.menus{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: #C7C7C7;
+}
+.visorInformacion{
+    grid-row: 2/7;
+    grid-column: 2/3;
+}
+select,
+input::-webkit-calendar-picker-indicator{
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+select{
+    background-size: 30px;
+    background-image: url('../images/iconoBuscar.svg');
+}
+input::-webkit-calendar-picker-indicator{
+background-image: url('../images/iconoCalendario.svg');
+background-size: 20px;
+}
+.reasignar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 95%;
+}
+.reasignar .observaciones{
+    padding: 30px;
+    height: 80%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.reasignar .observaciones .inputObservaciones{
+height: 50%;
+}
+.reasignar .descriptores{
+    width: 70%;
+    overflow-y: scroll;
+}
+.reasignar .descriptores::-webkit-scrollbar{
+    opacity: 0;
+}
+
+.reasignar .descriptores .scroll2{
+    display: flex;
+    flex-wrap: wrap;
+}
+table{
+    width: 100%;
+    margin: 60px 0 60px 0;
+}
+th{
+    height: 50px;
+    font-size: 25px;
+    color: #008DD6;
+    text-align: center;
+}
+td{
+    height: 35px;
+}
+
+.reasignar .descriptores .subtitulos{
+    font-weight: 900;
+}
+.reasignar .descriptores input, select{
+    width: 100%;
+    height: 30px;
+}
+.des{
+width: 200px;
+}
+.mas{
+    width: 30px;
+    font-weight: 900;
+}
+span{
+    color: red;
+}
+.textoObservaciones{
+      width: 100%;
+      height: 200px;
+      display: flex;
+      display: inline-table;
+}
+.selecionarOpcionObs{
+    width: 100%;
+    height: 5%;
+}
+.reasignar2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 60%;
+    height: 60%;
+}
+.agregarDocumentos2{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border:2px solid #C7C7C7;
+    margin: auto;
+}
+.imgFondho{
+    width: 50%;
+}
+.visorInformacion{
+    display: flex;
+}
+.digitar{
+    background-color: #25ADE8;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;   
+}
+.digitar:hover{
+    background-color: #25aee8ab;
+}
+.scroll section{
+    display: flex;
+    border-bottom:2px solid #C7C7C7;
+}
+.scroll section:hover{
+    background-color:#bedce9;
+}
+.scroll strong{
+    display: flex;
+}
+h3{
+    color: #1E75BB;
+    font-size: 18px;
+}
+.tarjetaManu{
+    margin: auto;
+    width: 80%; 
+}
+.rojo{
+    color: #FF0000;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
