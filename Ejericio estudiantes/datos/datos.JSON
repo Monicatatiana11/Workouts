@@ -1,0 +1,47 @@
+[
+{
+    "titulo": "figma",
+    "icono": "./imagenes/icono_figma.png",
+    "texto": "Aprende a utilizar Figma desde cero; sabrás cómo mejorar tu proceso de UX, a través de la creación de distintas librerías que podrás compartir con tu equipo, y podrás enfocarte más en mejorar la experiencia de los usuarios. Verás cómo es que Figma te servirá a lo largo de tu proceso, desde flowcharts hasta pruebas con usuarios."
+},
+{
+    "titulo": "HTML",
+    "icono": "./imagenes/icono_html.png",
+    "texto": "Fórmate en Frontend y Backend. Descarga el programa para ver todo lo que aprenderás. Comprende el ecosistema del desarrollo web y leer e interpreta código propio y ajeno. Javascript, HTML, CSS. Scrum y metod. agiles."
+},
+{
+    "titulo": "PYTHON",
+    "icono": "./imagenes/icono_python.png",
+    "texto": "Sé un data scientist junior preparado para todo lo que piden y necesitan las empresas. Complementa tu perfil de analista, investigador o profesional con Digital House. Python."
+},
+{
+    "titulo": "CSS",
+    "icono": "./imagenes/icono_css.png",
+    "texto": "Comprende el ecosistema del desarrollo web y leer e interpreta código propio y ajeno. Conviértete en programador web con las técnicas que emplean los profesionales."
+},
+{
+    "titulo": "JAVASCRIPT",
+    "icono": "./imagenes/icono_javascript.png",
+    "texto": "Aprende desarrollo web en línea de profesores altamente calificados. Únete a millones de estudiante alrededor del mundo que ya están aprendiendo en Udemy. Compre En Línea. Instructores Expertos."
+},
+{
+    "titulo": "EXCEL",
+    "icono": "./imagenes/icono_excel.png",
+    "texto": "El curso aborda los aspectos generales del entorno de la hoja de cálculo, identificación de herramientas, componentes y funciones básicas que le permitirán al participante iniciar un proceso de reconocimiento y proyección funcional de Excel."
+},
+{
+    "titulo": "NODE",
+    "icono": "./imagenes/icono_node.png",
+    "texto": "En dos palabras, Node. js es un código abierto de JavaScript para la creación de aplicaciones de red. Permite a los desarrolladores (programadores) ejecutar el código en el lado del servidor y generar aplicaciones web de forma altamente optimizada."
+},
+{
+    "titulo": "BD SQL",
+    "icono": "./imagenes/icono_sql.png",
+    "texto": "SQL o “Structure Query Language” es un lenguaje de acceso a bases de datos que le permite al usuario ejecutar operaciones entre estos datos relacionados con el apoyo de cálculos relacionales en forma de lenguaje de comandos."
+},
+{
+    "titulo": "BD MYSQL",
+    "icono": "./imagenes/icono_mysql.png",
+    "texto": "SQL o “Structure Query Language” es un lenguaje de acceso a bases de datos que le permite al usuario ejecutar operaciones entre estos datos relacionados con el apoyo de cálculos relacionales en forma de lenguaje de comandos."
+}
+]
