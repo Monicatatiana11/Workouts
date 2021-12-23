@@ -1,0 +1,102 @@
+[
+    {
+        "nombre":"Infraestructura SINCOSOFT EPM",
+        "SUBPROYECTO":[
+            {
+                "nombre":"subproyecto EPM",
+                "SUBPROYECTO":[]
+            }
+        ]
+    },
+    {
+        "nombre":"LAS AMERICAS",
+        "SUBPROYECTO":[
+            {
+                "nombre":"Las Americas etapa 3",
+                "SUBPROYECTO":[]
+            }
+        ]
+    },
+    {
+        "nombre":"LAS ORQUIDEAS",
+        "SUBPROYECTO":[
+            {
+                "nombre":"LAS ORQUIDEAS - PRELIMINARES",
+                "SUBPROYECTO":[]
+            }
+        ]
+    },
+    {
+        "nombre":"LOS KOSACOS",
+        "SUBPROYECTO":[
+            {
+                "nombre":"LOS KOSACOS 1",
+                "SUBPROYECTO":[]
+            }
+        ]
+    },
+    {
+        "nombre":"LOS MANDARINOS",
+        "SUBPROYECTO":[]
+    },
+    {
+        "nombre":"LOS UVALES",
+        "SUBPROYECTO":[
+            {
+                "nombre":"LOS UVALES AIF",
+                "SUBPROYECTO":[]
+            }
+        ]
+    },
+    {
+        "nombre":"MACRO 2 ACT",
+        "SUBPROYECTO":[
+            {
+                "nombre":"PROYECTO MACRO 2 - TZ",
+                "SUBPROYECTO":[]
+            }
+        ]
+    },
+    {
+        "nombre":"PROYECTO MACRO 2 - TZ",
+        "SUBPROYECTO":[]
+    },
+    {
+        "nombre":"PROYECTO MACRO 2 LAG",
+        "SUBPROYECTO":[
+            {
+                "nombre":"subproyecto 1 LAG - PMZ LAG",
+                "SUBPROYECTO":[]
+            }
+        ]
+    },
+    {
+        "nombre":"Proyecto X - ACT",
+        "SUBPROYECTO":[]
+    },
+    {
+        "nombre":"PROYECTO X S.P",
+        "SUBPROYECTO":[]
+    },
+    {
+        "nombre":"prueba 5",
+        "SUBPROYECTO":[
+            {
+                "nombre":"Prueba 5 LAG",
+                "SUBPROYECTO":[]
+            }
+        ]
+    },
+    {
+        "nombre":"prueba 6",
+        "SUBPROYECTO":[]
+    },
+    {
+        "nombre":"Infraestructura SINCOSOFT EPM",
+        "SUBPROYECTO":[]
+    },
+    {
+        "nombre":"PROYECTO MACRO 2 LAG",
+        "SUBPROYECTO":[]
+    }
+]

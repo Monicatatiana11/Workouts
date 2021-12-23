@@ -9,7 +9,12 @@ opcionesMenu.map((opcion)=>{
                 <h4>Observaciones</h4>            
                 <input type="Texto" placeholder="Maximo 2.500 caracteres" class="textoObservaciones">
                 <h4>Usuario</h4>
-                <select name="selecionarOpciones" id="" class="selecionarOpcionObs"></select>
+                <select name="selecionarOpciones" id="" class="selecionarOpcionObs">
+                <option>Seleccione</option>
+            <option>Raul Sanchez Casa</option>
+            <option>Helen Umaña</option>
+            <option>Lorena Cardenas</option> <option>Monica Rodriguez</option><option>Admin Sincosoft</option> </select>
+                
          </section>`;
                 break;
             case "asociacion":
@@ -129,3 +134,7 @@ mensajes.map((mensaje)=>{
 
     })
 })
+
+
+
+let filtro
